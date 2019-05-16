@@ -2,7 +2,7 @@
 greet = []
 
 def badge_maker(name)
-  greet = "Hello, my name is #{name}.")
+  greet = "Hello, my name is #{name}."
   greet
 end
 
