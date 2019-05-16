@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
   while i < attendees.length
     "Hello, my name is #{attendees[i]}."
     i += 1
-  #end
+  end
 end
 
 def assign_rooms()
