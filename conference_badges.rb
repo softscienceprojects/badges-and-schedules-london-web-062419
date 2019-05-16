@@ -1,6 +1,8 @@
 # Write your code here.
+greet = []
+
 def badge_maker(name)
-  greet = "Hello, my name is #{name}."
+  greet.push("Hello, my name is #{name}.")
   greet
 end
 
