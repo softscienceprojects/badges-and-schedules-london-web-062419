@@ -7,9 +7,9 @@ end
 def batch_badge_creator(attendees)
   i = 0
   attendees.each do |name|
-     "Hello, my name is #{name[i]}."
-
+    b = "Hello, my name is #{name[i]}."
   end
+  b
 end
 
 def assign_rooms()
