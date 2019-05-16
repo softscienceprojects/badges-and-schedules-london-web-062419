@@ -10,7 +10,6 @@ def batch_badge_creator(attendees)
     statement = "Hello, my name is #{attendees[i]}."
     i += 1
   end
-  statement
 end
 
 def assign_rooms()
