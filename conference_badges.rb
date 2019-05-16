@@ -18,7 +18,8 @@ end
 def assign_rooms(attendees)
   greet = []
   attendees.each_with_index { |item, index|
-    greet[item] }
+    greet[item] = index
+  }
 end
 
 def printer(attendees)
