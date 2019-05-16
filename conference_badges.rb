@@ -17,13 +17,8 @@ end
 
 def assign_rooms(attendees)
   greet = []
-  i = 1
-  attendees.each do |name|
-  hello = "Hello, #{name}! You'll be assigned to room #{name[i]}!"
-  greet.push(hello)
-  i += 1
-  end
-  greet
+  attendees.each_with_index { |item, index|
+    greet[item] }
 end
 
 def printer(attendees)
