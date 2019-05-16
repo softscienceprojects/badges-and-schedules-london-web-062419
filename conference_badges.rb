@@ -4,7 +4,7 @@ def badge_maker(name)
   greet
 end
 
-def batch_badge_creator(attendees)
+def batch_badge_creator(badges)
   i = 0
   while i <= attendees.length
     puts "Hello, my name is #{attendees[i]}."
