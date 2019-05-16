@@ -6,6 +6,7 @@ end
 
 def batch_badge_creator(attendees)
   for x in attendees
+    puts x
   end
   "Hello, my name is  #{attendees[x]}."
 end
