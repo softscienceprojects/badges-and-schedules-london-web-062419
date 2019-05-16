@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  for x in attendees
+  for x.to_i in attendees
     puts x
   end
   "Hello, my name is  #{attendees[x]}."
