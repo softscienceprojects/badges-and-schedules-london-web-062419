@@ -9,6 +9,7 @@ def batch_badge_creator(attendees)
   loop do
     puts attendees[i]
     i += 1
+    break
   end
 end
 
