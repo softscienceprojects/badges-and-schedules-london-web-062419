@@ -7,8 +7,8 @@ end
 def batch_badge_creator(attendees)
   i = 0
   while i < attendees.length
-    puts "Hello, my name is #{attendees[i]}."
-    i += 1
+    statement = "Hello, my name is #{attendees[i]}."
+    statement += 1
   end
 end
 
