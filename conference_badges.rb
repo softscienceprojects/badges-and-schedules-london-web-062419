@@ -6,8 +6,8 @@ end
 
 def batch_badge_creator(attendees)
   i = 0
-  while i < attendees.length
-    "Hello, my name is #{attendees[i]}."
+  attendees.each do |name|
+    "Hello, my name is #{name[i]}."
     i += 1
   end
 end
